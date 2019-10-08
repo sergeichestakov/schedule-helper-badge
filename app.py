@@ -15,9 +15,9 @@ def get_users():
 
     res = {
         'schemaVersion': 1,
-        'label': 'Num Users',
+        'label': 'Downloads',
         'message': num_users,
-        'color': 'blue'
+        'color': 'informational'
     }
 
     return jsonify(res)
